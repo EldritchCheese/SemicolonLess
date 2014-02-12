@@ -6,4 +6,4 @@ env = Environment()
 if debug:
     env.Append(CCFLAGS = Split(debug), LINKFLAGS = Split(debug))
 
-env.Program('SLess.cc')
+env.Program(Glob('*.cc'))

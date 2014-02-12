@@ -1,4 +1,5 @@
 *.o
 *~
 SLess
+BrainF
 .sconsign*
